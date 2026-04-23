@@ -63,13 +63,13 @@ class CarController:
             self.update_action("FORWARD")
         elif key == "s":
             self.update_action("BACKWARD")
-        elif key == "a":
-            self.update_action("LEFT_FRONT")
-        elif key == "d":
-            self.update_action("RIGHT_FRONT")
         elif key == "e":
-            self.update_action("COUNTERCLOCKWISE_ROTATION")
+            self.update_action("LEFT_FRONT")
         elif key == "r":
+            self.update_action("RIGHT_FRONT")
+        elif key == "a":
+            self.update_action("COUNTERCLOCKWISE_ROTATION")
+        elif key == "d":
             self.update_action("CLOCKWISE_ROTATION")
         elif key == "z":
             self.update_action("STOP")
