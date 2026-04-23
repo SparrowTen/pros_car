@@ -122,3 +122,5 @@ CATKIN_IGNORE
 video.txt
 *.prefab
 *.asset.meta
+
+.DS_Store
